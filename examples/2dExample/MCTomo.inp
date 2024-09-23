@@ -76,7 +76,7 @@
  MCMC_SET%INITIAL_MODEL='initial_model.dat',
  ! Chain id (used if mpi is not available)
  MCMC_SET%PROCESSOR=         2,
- ! Burn-in period. It is fine to change burn-in period during running. Mase sure you
+ ! Burn-in period. It is fine to change burn-in period during running. Make sure you
  ! reset it to be bigger than the total samples already generated. This will make the
  ! code re-sample the chain after  burn-in.
  MCMC_SET%BURN_IN=          300000,
